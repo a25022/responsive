@@ -1,0 +1,519 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* first wrapper starts*/
+
+.first-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/slider-bg.jpg");
+    background-size: cover;
+}
+.first-wrapper .header{
+    width: 100%;
+    color: white;
+}
+.header h2{
+    float: left;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 2%;
+}
+.header ul{
+    float: right;
+    margin-top: 40px;
+    margin-right: 2%;
+    font-size: 15px;
+}
+.header li{
+    color: white;
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+}
+.header a{
+    text-decoration: none;
+}
+.banner{
+    width: 50%;
+    color: white;
+    position: relative;
+    top: 15%;
+    left: 120px;
+}
+.banner h1{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.banner p{
+    font-size: 20px;
+}
+.banner button{
+    width: 200px;
+    height: 40px;
+    background-color:black;
+    border-radius: 5px;
+    color:rgb(182, 120, 4);
+    border: 1px solid rgb(182, 120, 4);
+    font-size: 15px;
+    margin-top: 50px;
+}
+/* first wrapper ends*/
+
+
+/* second wrapper starts*/
+.second-wrapper{
+    width: 100%;
+    padding-top: 70px ;
+    text-align: center;
+}
+.second-wrapper .main{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.second-wrapper .main .left{
+    width: 48%;
+    float: left;
+}
+.second-wrapper .main  .box-1{
+    width: 45%;
+    background-color: #eeecec;
+    float: left;
+    padding-bottom: 20px ;
+
+}
+.second-wrapper .main  .box{
+    width: 45%;
+    background-color: #eeecec;
+    float: right;
+    padding-bottom: 20px;
+}
+
+.main .box img{
+    height: 200px;
+    width: 65%;
+}
+.main .box-1 img{
+    width: 65%;
+    height: 200px;
+}
+.main .bottom{
+    margin-top:30px ;
+}
+.main .new{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-left:15px;
+}
+.main .new p{
+    position: relative;
+    top: 15px;
+}
+.main .text{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+}
+.main .text p{
+    float: left;
+    font-weight: bold;
+}
+.main .text h4{
+    float: right;
+}
+.main span{
+    color:rgb(255, 168, 6) ;
+}
+.second-wrapper .main .right{
+    width: 48%;
+    float: right;
+}
+.second-wrapper .main .right .bottom{
+    margin-top: 30px;
+}
+
+/* second wrapper ends*/
+
+/*third wrappeer starts*/
+
+.third-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+
+.third-wrapper  .left{
+    width: 48%;
+    float: left;
+}
+.third-wrapper .right{
+    width: 48%;
+    float: right;
+    text-align: left;
+    margin-top: 40px;
+}
+.third-wrapper  img{
+    width: 100%;
+}
+.third-wrapper .right h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.third-wrapper .right p{
+    line-height: 20px;
+}
+.third-wrapper .view{
+    margin-top: 10;
+    width: 150px;
+    height: 30px;
+    background-color:rgb(255, 169, 8);
+    color:white;
+    font-size: 15px;
+    border: none;
+
+}
+
+
+/*third wrappeer ends*/
+
+
+/*forth wrappeer starts*/
+
+.forth-wrapper{
+    width: 100%;
+    text-align: left;
+}
+.forth-wrapper .left h2{
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.forth-wrapper .left{
+    width: 48%;
+    height: 500px;
+    float: left;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("../img/o1.jpg");
+    
+}
+.forth-wrapper .left button{
+    width: 120px;
+    height: 30px;
+    margin-top: -15px;
+    background-color: black;
+    color:rgb(182, 120, 4);
+    border: 1px solid rgb(182, 120, 4);
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.forth-wrapper .right{
+    width: 48%;
+    height: 500px;
+    float: right;
+}
+.forth-wrapper .right .top{
+    width: 100%;
+    height: 230px;
+    background-image: url("../img/o2.jpg");
+    background-size: cover;
+    background-position: center center;
+    float: left;
+    text-align: right;
+}
+.forth-wrapper .right .bottom{
+    width: 100%;
+    height: 230px;
+    background-image: url("../img/o3.jpg");
+    background-size: cover;
+    background-position: center center;
+    float: left;
+    margin-top: 40px;
+}
+.forth-wrapper .right  h2{
+    font-size: 40px;
+    color: white;
+    
+}
+.forth-wrapper .right  button{
+    width: 120px;
+    height: 30px;
+    margin-top: -15px;
+    background-color: black;
+    color:rgb(182, 120, 4);
+    border: 1px solid rgb(182, 120, 4);
+}
+.forth-wrapper .text{
+    padding: 20px;
+    position: relative;
+    top: 60px;
+}
+
+/*forth wrappeer ends*/
+
+
+/*fifth wrappeer starts*/
+.fifth-wrapper{
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.fifth-wrapper h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.fifth-wrapper .content{
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 30px;
+}
+.fifth-wrapper .content .left{
+    width: 48%;
+    float: left;
+    background-color: #eeecec;
+    padding-bottom: 20px;
+
+}
+.content .left img{
+    width: 100%;
+}
+.content .right img{
+    width: 100%;
+}
+.fifth-wrapper .content .right{
+    width: 48%;
+    float: right;
+    background-color: #eeecec;
+    padding-bottom: 20px;
+
+}
+.content .date{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    position: relative;
+    top: -40px;
+    left: 30px;
+    text-align: center;
+}
+.content .date p{
+    margin-top: 5px;
+}
+.content .text{
+    margin-left: 30px;
+    margin-top: -30px;
+}
+.content .text h3{
+        font-size: 18px;
+        font-weight: bold;
+}
+.content .text p{
+    color: gray;
+}
+.content .text button{
+    width: 120px;
+    height: 40px;
+}
+/*fifth wrappeer ends*/
+.testimonial{
+    text-align: center;
+}
+.testimonial h2{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.testimonial .black-pic{
+    width: 60%;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 10px;
+    padding: 40px 20px
+}
+.testimonial .black-pic img{
+    border-radius: 100%;
+    width: 20%;
+    border:  5px solid gray;
+}
+.testimonial .black-pic h3{
+    color: rgb(207, 136, 4);
+    font-weight: bold;
+}
+.testimonial .black-pic p{
+    text-align: center;
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    padding: 30px 0;
+    margin: 0;
+    text-align: center;
+}
+@media only screen and (max-width:800px){
+    .second-wrapper .main .left{
+        width: 100%;
+        clear: both;
+    }
+    .second-wrapper .main .right{
+        width: 100%;
+        clear: both;
+        margin-top: 30px;
+    }
+    .first-wrapper{
+        background-position: center center;
+    }
+    .banner{
+        width: 45%;
+        position: relative;
+        left: 50px;
+        top: 50pxpx;
+    }
+    .banner h1{
+        font-size: 40px;
+    }
+    .banner p{
+        font-size: 18px;
+    }
+    .banner button{
+        
+        margin-top: 30px;
+    }
+    .third-wrapper .left{
+        width: 100%;
+        clear: both;
+    }
+    .third-wrapper .right{
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+    .third-wrapper .right p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .third-wrapper .view{
+        width: 200px;
+        height: 50px;
+        font-size:20px;
+    }
+    .forth-wrapper .left{
+        width: 100%;
+        clear: both;
+    }
+    .forth-wrapper .right{
+        width: 100%;
+        clear: both;
+        margin-top: 20px;
+    }
+    
+    .forth-wrapper .right .bottom{
+        margin-top: 20px;
+    }
+    .forth-wrapper .right button{
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .forth-wrapper .left button{
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .fifth-wrapper .content .left{
+        width: 100%;
+        clear: both;
+    }
+    .fifth-wrapper .content .right{
+        width: 100%;
+        clear: both;
+        margin-top: 30px;
+    }
+    .fifth-wrapper .content{
+        text-align: center;
+    }
+    .fifth-wrapper .content .text{
+        margin-left: 10px;
+
+    }
+    .testimonial .black-pic{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .second-wrapper .main .top .box{
+        width: 100%;
+        clear: both;
+        margin-top: 30px;
+    } 
+    .second-wrapper .main .top .box-1{
+        width: 100%;
+        clear: both;
+    }
+    .second-wrapper .main .bottom .box{
+        width: 100%;
+        clear: both;
+        margin-top: 30px;
+    } 
+    .second-wrapper .main .bottom .box-1{
+        width: 100%;
+        clear: both;
+    }  
+    .second-wrapper .main .text p{
+        font-size: 25px;
+    }
+    .second-wrapper .main .text h4{
+        font-size: 25px;
+    }  
+    .second-wrapper .main .new{
+        width: 80px;
+        height: 80px;
+    }  
+    .second-wrapper .main .new p{
+        font-size: 25px;
+        top: 25px;
+    } 
+    .second-wrapper .main .box img{
+        width: 60%;
+        height: 300px;
+    }
+    .second-wrapper .main .box-1 img{
+        width: 60%;
+        height: 300px;
+    }
+    .third-wrapper .left{
+        width: 100%;
+        clear: both;
+    }
+    .third-wrapper .right{
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+    .third-wrapper img{
+        width: 100%;
+    }
+}
+
